@@ -1,8 +1,10 @@
 {
   description = "check_mk agent";
+  
   inputs.nixpkgs.url = "nixpkgs/nixos-unstable";
+
   inputs.checkmk = {
-    url = "github:tribe29/checkmk/2.1.0";
+    url = "github:tribe29/checkmk/v2.3.0p2";
     flake = false;
   };
 

@@ -33,8 +33,8 @@ let
     iproute2
     time
   ];
-  python = pkgs.python38;
-  pythonPackages = pkgs.python38Packages;
+  python = pkgs.python310;
+  pythonPackages = pkgs.python310Packages;
   plugins = [
     {
       name = "smart";

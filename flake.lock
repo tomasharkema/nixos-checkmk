@@ -3,27 +3,27 @@
     "checkmk": {
       "flake": false,
       "locked": {
-        "lastModified": 1673600050,
-        "narHash": "sha256-NtEgXmwFPubT2mFRM171k52tD6Ref6NmZNM/YZzKRnE=",
+        "lastModified": 1715668589,
+        "narHash": "sha256-rk+OZOvAFWTaV5TZrWjoDQdH9atb78m0dUZvAQLSE8E=",
         "owner": "tribe29",
         "repo": "checkmk",
-        "rev": "f2879ef2ce6b2ede505fdae30dd861dcdf843622",
+        "rev": "5ba483a2e011b281853e3d4789c7f77d5bd2915c",
         "type": "github"
       },
       "original": {
         "owner": "tribe29",
-        "ref": "2.1.0",
+        "ref": "v2.3.0p2",
         "repo": "checkmk",
         "type": "github"
       }
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1673450908,
-        "narHash": "sha256-b8em+kwrNtnB7gR8SyVf6WuTyQ+6tHS6dzt9D9wgKF0=",
+        "lastModified": 1716137900,
+        "narHash": "sha256-sowPU+tLQv8GlqtVtsXioTKeaQvlMz/pefcdwg8MvfM=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "6c8644fc37b6e141cbfa6c7dc8d98846c4ff0c2e",
+        "rev": "6c0b7a92c30122196a761b440ac0d46d3d9954f1",
         "type": "github"
       },
       "original": {
