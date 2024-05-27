@@ -7,14 +7,13 @@
 , enablePluginSmart ? false
 , enablePluginDocker ? false
 , localChecks ? [ ]
-, cmkaVersion ? "v2.1.0p19"
+, cmkaVersion ? "v2.3.0p3"
 , cmkaSrc ? fetchFromGitHub {
-    owner = "tribe29";
+    owner = "Checkmk";
     repo = "checkmk";
     rev = cmkaVersion;
-    sha256 = "sha256-/8vLRWIt3aG7538X+a8tqJUAcHqE1yKUJnvVZGmQr7I=";
+    sha256 = "sha256-PO8IgbO5Fmgl9V1Qc6eRbpGdeC9jreOQgIIiKpgq1aY=";
   }
-
 }:
 let
   deps = with pkgs; [
